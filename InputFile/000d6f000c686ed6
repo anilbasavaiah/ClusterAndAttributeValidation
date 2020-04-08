@@ -1,0 +1,313 @@
+{
+    "deviceDriver":   "ZigBeeSensorDD",
+    "deviceClass":    "sensor",
+    "deviceClassVersion": 1,
+    "uri":    "/000d6f000c686ed6",
+    "uuid":   "000d6f000c686ed6",
+    "deviceEndpoints":    {
+        "1":  {
+            "uri":    "/000d6f000c686ed6/ep/1",
+            "id": "1",
+            "profile":    "sensor",
+            "enabled":    true,
+            "profileVersion": 0,
+            "resources":  {
+                "faulted":    {
+                    "id": "faulted",
+                    "uri":    "/000d6f000c686ed6/ep/1/r/faulted",
+                    "mode":   57,
+                    "cachingPolicy":  1,
+                    "dateOfLastSyncMillis":   1570045317212,
+                    "value":  "false",
+                    "type":   "com.icontrol.boolean"
+                },
+                "qualified":  {
+                    "id": "qualified",
+                    "uri":    "/000d6f000c686ed6/ep/1/r/qualified",
+                    "mode":   1,
+                    "cachingPolicy":  1,
+                    "dateOfLastSyncMillis":   0,
+                    "value":  "true",
+                    "type":   "com.icontrol.boolean"
+                },
+                "bypassed":   {
+                    "id": "bypassed",
+                    "uri":    "/000d6f000c686ed6/ep/1/r/bypassed",
+                    "mode":   35,
+                    "cachingPolicy":  1,
+                    "dateOfLastSyncMillis":   0,
+                    "value":  "false",
+                    "type":   "com.icontrol.boolean"
+                },
+                "type":   {
+                    "id": "type",
+                    "uri":    "/000d6f000c686ed6/ep/1/r/type",
+                    "mode":   1,
+                    "cachingPolicy":  1,
+                    "dateOfLastSyncMillis":   0,
+                    "value":  "contactSwitch",
+                    "type":   "com.icontrol.sensorType"
+                },
+                "tampered":   {
+                    "id": "tampered",
+                    "uri":    "/000d6f000c686ed6/ep/1/r/tampered",
+                    "mode":   57,
+                    "cachingPolicy":  1,
+                    "dateOfLastSyncMillis":   0,
+                    "value":  "false",
+                    "type":   "com.icontrol.boolean"
+                },
+                "label":  {
+                    "id": "label",
+                    "uri":    "/000d6f000c686ed6/ep/1/r/label",
+                    "mode":   59,
+                    "cachingPolicy":  1,
+                    "dateOfLastSyncMillis":   1568922200056,
+                    "value":  "Dwtyc4",
+                    "type":   "com.icontrol.label"
+                }
+            },
+            "metadatas":  {
+                "zigbee_epid":    {
+                    "id": "zigbee_epid",
+                    "uri":    "/000d6f000c686ed6/ep/1/m/zigbee_epid",
+                    "value":  "1"
+                },
+                "secZone":    {
+                    "id": "secZone",
+                    "uri":    "/000d6f000c686ed6/ep/1/m/secZone",
+                    "value":  {
+                        "zoneNumber": 2,
+                        "sensorId":   2,
+                        "displayIndex":   2,
+                        "isTroubled": false,
+                        "isConfigured":   true,
+                        "inSwingerShutdown":  false,
+                        "isInTestMode":   false,
+                        "isWirelessDevice":   false,
+                        "isBatteryDevice":    false,
+                        "hasTemperature": false,
+                        "zoneType":   1,
+                        "zoneFunction":   1,
+                        "zoneMute":   0
+                    }
+                }
+            }
+        }
+    },
+    "deviceResources":    {
+        "manufacturer":   {
+            "id": "manufacturer",
+            "uri":    "/000d6f000c686ed6/r/manufacturer",
+            "mode":   1,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "Visonic",
+            "type":   "com.icontrol.string"
+        },
+        "model":  {
+            "id": "model",
+            "uri":    "/000d6f000c686ed6/r/model",
+            "mode":   1,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "REHP1AZ0",
+            "type":   "com.icontrol.string"
+        },
+        "hardwareVersion":    {
+            "id": "hardwareVersion",
+            "uri":    "/000d6f000c686ed6/r/hardwareVersion",
+            "mode":   1,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "1",
+            "type":   "com.icontrol.version"
+        },
+        "firmwareVersion":    {
+            "id": "firmwareVersion",
+            "uri":    "/000d6f000c686ed6/r/firmwareVersion",
+            "mode":   57,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "0x1000000f",
+            "type":   "com.icontrol.version"
+        },
+        "firmwareUpdateStatus":   {
+            "id": "firmwareUpdateStatus",
+            "uri":    "/000d6f000c686ed6/r/firmwareUpdateStatus",
+            "mode":   57,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "pending",
+            "type":   "com.icontrol.firmwareVersionStatus"
+        },
+        "dateAdded":  {
+            "id": "dateAdded",
+            "uri":    "/000d6f000c686ed6/r/dateAdded",
+            "mode":   1,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "1568922152381",
+            "type":   "com.icontrol.dateTime"
+        },
+        "dateLastContacted":  {
+            "id": "dateLastContacted",
+            "uri":    "/000d6f000c686ed6/r/dateLastContacted",
+            "mode":   89,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1570045315930,
+            "value":  "1570045315916",
+            "type":   "com.icontrol.dateTime"
+        },
+        "communicationFailure":   {
+            "id": "communicationFailure",
+            "uri":    "/000d6f000c686ed6/r/communicationFailure",
+            "mode":   57,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "false",
+            "type":   "com.icontrol.trouble"
+        },
+        "resetToFactoryDefaults": {
+            "id": "resetToFactoryDefaults",
+            "uri":    "/000d6f000c686ed6/r/resetToFactoryDefaults",
+            "mode":   4,
+            "cachingPolicy":  0,
+            "dateOfLastSyncMillis":   0,
+            "type":   "com.icontrol.resetToFactoryOperation"
+        },
+        "feRssi": {
+            "id": "feRssi",
+            "uri":    "/000d6f000c686ed6/r/feRssi",
+            "mode":   89,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1570036779983,
+            "value":  "-13",
+            "type":   "rssi"
+        },
+        "feLqi":  {
+            "id": "feLqi",
+            "uri":    "/000d6f000c686ed6/r/feLqi",
+            "mode":   89,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "255",
+            "type":   "lqi"
+        },
+        "neRssi": {
+            "id": "neRssi",
+            "uri":    "/000d6f000c686ed6/r/neRssi",
+            "mode":   89,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1570045317209,
+            "value":  "-83",
+            "type":   "rssi"
+        },
+        "neLqi":  {
+            "id": "neLqi",
+            "uri":    "/000d6f000c686ed6/r/neLqi",
+            "mode":   89,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1570045317210,
+            "value":  "251",
+            "type":   "lqi"
+        },
+        "temp":   {
+            "id": "temp",
+            "uri":    "/000d6f000c686ed6/r/temp",
+            "mode":   89,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1569962192493,
+            "value":  "2800",
+            "type":   "com.icontrol.temperature"
+        },
+        "lowBatt":    {
+            "id": "lowBatt",
+            "uri":    "/000d6f000c686ed6/r/lowBatt",
+            "mode":   57,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   0,
+            "value":  "false",
+            "type":   "com.icontrol.boolean"
+        },
+        "battVolts":  {
+            "id": "battVolts",
+            "uri":    "/000d6f000c686ed6/r/battVolts",
+            "mode":   121,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1569808249962,
+            "value":  "2800",
+            "type":   "battery.voltage"
+        },
+        "lastUserInteractionDate":    {
+            "id": "lastUserInteractionDate",
+            "uri":    "/000d6f000c686ed6/r/lastUserInteractionDate",
+            "mode":   121,
+            "cachingPolicy":  1,
+            "dateOfLastSyncMillis":   1570045315995,
+            "value":  "1570045315995",
+            "type":   "com.icontrol.dateTime"
+        }
+    },
+    "metadatas":  {
+        "discoveredDetails":  {
+            "id": "discoveredDetails",
+            "uri":    "/000d6f000c686ed6/m/discoveredDetails",
+            "value":  {
+                "eui64":  "000d6f000c686ed6",
+                "manufacturer":   "Visonic",
+                "model":  "MCT-325",
+                "hwVer":  1,
+                "fwVer":  268435471,
+                "appVer": 1,
+                "type":   "end",
+                "power":  "batt",
+                "endpoints":  [{
+                        "id": 1,
+                        "profileId":  260,
+                        "deviceId":   1026,
+                        "deviceVer":  0,
+                        "serverClusterInfos": [{
+                                "id": 0,
+                                "isServer":   true,
+                                "attributeIds":   [0, 1, 2, 3, 4, 5, 7]
+                            }, {
+                                "id": 1,
+                                "isServer":   true,
+                                "attributeIds":   [32, 49, 51, 54, 55, 56, 57, 62]
+                            }, {
+                                "id": 3,
+                                "isServer":   true,
+                                "attributeIds":   [0]
+                            }, {
+                                "id": 32,
+                                "isServer":   true,
+                                "attributeIds":   [0, 1, 2, 3, 4, 6]
+                            }, {
+                                "id": 1026,
+                                "isServer":   true,
+                                "attributeIds":   [0, 1, 2]
+                            }, {
+                                "id": 1280,
+                                "isServer":   true,
+                                "attributeIds":   [0, 1, 2, 16, 17]
+                            }, {
+                                "id": 2821,
+                                "isServer":   true,
+                                "attributeIds":   [283, 284, 285]
+                            }],
+                        "clientClusterInfos": [{
+                                "id": 25,
+                                "isServer":   false,
+                                "attributeIds":   [0, 1, 2, 4, 6, 7, 8, 9, 10]
+                            }]
+                    }]
+            }
+        },
+        "lpmPolicy":  {
+            "id": "lpmPolicy",
+            "uri":    "/000d6f000c686ed6/m/lpmPolicy",
+            "value":  "always"
+        }
+    }
+}
